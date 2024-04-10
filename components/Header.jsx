@@ -86,7 +86,7 @@ const Header = ({domain}) => {
             </div>
             <div className="w-full lg:w-1/2 relative lg:mt-0 mt-0 flex items-center justify-center">
               <Image
-                src="https://cdn.vnoc.com/images/people_working_3.png"
+                src="https://cdn.vnoc.com/images/people_working_6.png"
                 className="w-full ml-4 md:ml-20 lg:ml-0 relative"
                 alt={""}
                 width={500}
