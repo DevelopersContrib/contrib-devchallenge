@@ -179,6 +179,13 @@ const HomeContent = ({domain}) => {
             <div className="max-w-m col-span-4  border-0 border-gray-200 text-gray-50">
               <div className="box-border flex flex-col items-center h-full px-2 py-8 mx-4 leading-6 text-center border-solid sm:items-start sm:text-left">
                 <div className="mt-6  text-center border-0 border-gray-200 sm:text-left text-gray-50">
+                  <Image
+                    src="https://cdn.vnoc.com/icons/devchallenge/agreement.png"
+                    className="text-center mx-auto mb-3"
+                    alt={""}
+                    width={65}
+                    height={65}
+                  />
                   <span className="box-border text-2xl font-bold leading-none tracking-wider text-center border-solid sm:text-left text-gray-50">
                     Exclusive Partnership Opportunity
                   </span>
@@ -197,6 +204,13 @@ const HomeContent = ({domain}) => {
             <div className="max-w-m col-span-4  border-0 border-gray-200 text-gray-50">
               <div className="box-border flex flex-col items-center h-full px-2 py-8 mx-4 leading-6 text-center border-solid sm:items-start sm:text-left">
                 <div className="mt-6  text-center border-0 border-gray-200 sm:text-left text-gray-50">
+                <Image
+                    src="https://cdn.vnoc.com/icons/devchallenge/money.png"
+                    className="text-center mx-auto mb-3"
+                    alt={""}
+                    width={65}
+                    height={65}
+                  />
                   <span className="box-border text-2xl font-bold leading-none tracking-wider border-solid text-gray-50">
                     A Generous Stake in Tomorrow
                   </span>
@@ -214,6 +228,13 @@ const HomeContent = ({domain}) => {
             <div className="max-w-m col-span-4  border-0 border-gray-200 text-gray-50">
               <div className="box-border flex flex-col items-center h-full px-2 py-8 mx-4 leading-6 text-center border-solid sm:items-start sm:text-left">
                 <div className="mt-6  text-center border-0 border-gray-200 sm:text-left text-gray-50">
+                <Image
+                    src="https://cdn.vnoc.com/icons/devchallenge/team.png"
+                    className="text-center mx-auto mb-3"
+                    alt={""}
+                    width={65}
+                    height={65}
+                  />
                   <span className="box-border text-2xl font-bold leading-none tracking-wider text-center border-solid sm:text-left text-gray-50">
                     First Dibs on Challenge Teams
                   </span>
