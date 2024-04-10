@@ -8,7 +8,7 @@ const HomeContent = ({domain}) => {
         <div className="container flex flex-col flex-wrap items-center justify-between py-20 mx-auto md:flex-row max-w-7xl">
           <div className="lg:w-1/2 w-full lg:max-w-none max-w-2xl mx-auto lg:pt-0 pt-10 lg:pr-10 xl:pr-10">
             <Image
-              src="https://cdn.vnoc.com/images/people_working_4.png"
+              src="https://cdn.vnoc.com/icons/devchallenge/sword.png"
               className="w-full ml-4 md:ml-20 lg:ml-0 relative"
               alt={""}
               width={500}
