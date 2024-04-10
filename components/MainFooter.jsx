@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 
-const MainFooter = ({domain}) => {  
+const MainFooter = () => {  
   return (
     <>    
     <section className="w-full bg-black">

@@ -40,9 +40,9 @@ export default async function Home() {
 
   return (
     <>
-      <Header domain={undefined} />
-      <HomeContent domain={undefined} />
-      <MainFooter domain={undefined} />
+      <Header />
+      <HomeContent />
+      <MainFooter />
     </>
   );
 }

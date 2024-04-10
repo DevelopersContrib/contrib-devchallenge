@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 
-const Header = ({domain}) => {  
+const Header = () => {  
   return (
     <>    
     <section className="w-full bg-black overflow-hidden">

@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 
-const HomeContent = ({domain}) => {  
+const HomeContent = () => {  
   return (
     <>    
     <section className="w-full px-5 relative bg-black">
