@@ -41,7 +41,7 @@ const Header = () => {
                         <span>Contact Us</span>
                         <span className="h-0.5 w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition ease-out duration-200 translate-y-1 group-hover:-translate-y-0 left-0 bg-white"></span>
                     </a>
-                    <a href="#" className="text-md bg-blue-700 text-white px-6 py-2 rounded-lg hover:bg-blue-800">Join Now!</a>
+                    <a href="https://devchallenge.com/join" target="_blank" className="text-md bg-blue-700 text-white px-6 py-2 rounded-lg hover:bg-blue-800">Join Now!</a>
                 </nav>
             </div>           
             <div className="container relative max-w-4xl mx-auto mt-20 sm:mt-20 lg:mt-20 pt-10">
@@ -69,7 +69,7 @@ const Header = () => {
                 </div>
             </div>
 			<div className="relative flex justify-center max-w-3xl mx-auto mt-10">
-				<a href="#" className="text-xl bg-blue-700 text-white px-6 py-3 rounded-lg hover:bg-blue-800">Join Now!</a>
+				<a href="https://devchallenge.com/join" target="_blank" className="text-xl bg-blue-700 text-white px-6 py-3 rounded-lg hover:bg-blue-800">Join Now!</a>
 			</div>
         </div>
     </div>
