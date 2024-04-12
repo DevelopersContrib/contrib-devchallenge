@@ -46,7 +46,7 @@ const Header = () => {
             </div>           
             <div className="container relative max-w-4xl mx-auto mt-20 sm:mt-20 lg:mt-20 pt-10">
                 <h1 className="lh text-center text-7xl font-black leading-tight tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-gray-200 via-gray-50 to-gray-500 sm:text-7xl md:text-7xl">
-					Developing Tomorrow’s Collaborative Frameworks Today
+					Developing Tomorrow&apos;s Collaborative Frameworks Today
 				</h1>                
                 <p className="text-xl text-center mt-6 text-md text-gray-300">
 				Join us at Devchallenge.com as we pioneer the next generation of web development tools. Dive into a community-driven journey, shaping the future of collaborative web frameworks.

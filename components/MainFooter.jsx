@@ -10,7 +10,7 @@ const MainFooter = () => {
             <div className="col-span-3">
                 <a href="#_" className="text-xl font-black leading-none text-white select-none logo">DevChallenge.</a>
                 <p className="my-4 text-xs leading-normal text-gray-100">
-                    Developing Tomorrow’s Collaborative Frameworks Today
+                    Developing Tomorrow&apos;s Collaborative Frameworks Today
                 </p>
             </div>
             <nav className="col-span-1 md:col-span-1 lg:col-span-2">

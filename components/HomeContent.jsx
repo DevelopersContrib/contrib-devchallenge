@@ -33,7 +33,7 @@ const HomeContent = () => {
 					Help Forge the Next.js Excalibur!
 				</h2>
                 <p className="text-lg text-gray-300 my-7">
-					Fellow developers, imagine a world where a Next.js template isn’t just a template. It’s a living, breathing entity, evolving with every contribution, managed from the nerve center of vnoc.com. Sounds like a sci-fi movie? Well, it’s about to become reality, and you're being recruited for the mission!
+					Fellow developers, imagine a world where a Next.js template isn&apos;t just a template. It&apos;s a living, breathing entity, evolving with every contribution, managed from the nerve center of vnoc.com. Sounds like a sci-fi movie? Well, it&apos;s about to become reality, and you're being recruited for the mission!
 				</p>
             </div>
             <div className="relative flex items-center justify-center w-full md:w-1/2 md:pt-0">
@@ -83,16 +83,16 @@ const HomeContent = () => {
                 The Magic Behind the Curtain
             </h2>
             <p className="text-gray-500 text-xl">
-				<b className="text-white">The Proposal Arena: </b>Submit your ideas for what this Next.js template could be. A portfolio that updates with your latest GitHub commit? A blog that auto-publishes your midnight musings from a Markdown file? The sky’s the limit.
+				<b className="text-white">The Proposal Arena: </b>Submit your ideas for what this Next.js template could be. A portfolio that updates with your latest GitHub commit? A blog that auto-publishes your midnight musings from a Markdown file? The sky&apos;s the limit.
 			</p>
 			 <p className="text-gray-500 text-xl">
 				<b className="text-white">The Forge of Approval: </b>Ideas will be vetted by our team of wise wizards (aka the project admins). If your idea shines brightest, it becomes the chosen one.
 			</p>
 			<p className="text-gray-500 text-xl">
-				<b className="text-white">The Circle of Contributors: </b>Once an idea is selected, it’s all hands on deck. Contribute code, documentation, spells, and potions (okay, maybe not potions) to bring the concept to life.
+				<b className="text-white">The Circle of Contributors: </b>Once an idea is selected, it&apos;s all hands on deck. Contribute code, documentation, spells, and potions (okay, maybe not potions) to bring the concept to life.
 			</p>
 			<p className="text-gray-500 text-xl">
-				<b className="text-white">The Command Center: </b>Approved guardians (that’s you, if you wish) can manage the site directly from vnoc.com, ensuring the template remains not only a beacon of innovation but also a fortress of security and efficiency.
+				<b className="text-white">The Command Center: </b>Approved guardians (that&apos;s you, if you wish) can manage the site directly from vnoc.com, ensuring the template remains not only a beacon of innovation but also a fortress of security and efficiency.
 			</p>
         </div>       
     </div>
@@ -107,7 +107,7 @@ const HomeContent = () => {
 					Ready to Make History?
 				</h2>
                 <p className="text-lg text-gray-300 my-7">
-				This isn’t just another project. It’s a chance to be part of something bigger, bolder, and frankly, pretty awesome. To join the quest, drop your idea here and let’s start shaping the future, one commit at a time. Together, we’re not just coding; we’re creating a legacy. Let the contributions begin!
+				This isn&apos;t just another project. It&apos;s a chance to be part of something bigger, bolder, and frankly, pretty awesome. To join the quest, drop your idea here and let&apos;s start shaping the future, one commit at a time. Together, we&apos;re not just coding; we&apos;re creating a legacy. Let the contributions begin!
 				</p>
             </div>            
         </div>
@@ -183,7 +183,7 @@ const HomeContent = () => {
         <h2 className="text-center text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gray-200 via-gray-50 to-gray-400">
 			Elevate Your Ideas to Win: Our Judging Criteria Unveiled
 		</h2>
-        <p className="mt-5 mb-12 text-lg text-gray-500 text-center">In the quest to find groundbreaking projects that redefine what's possible, our panel of esteemed judges will be focusing on a blend of innovation, technical excellence, impact, and collaborative effort. Here’s what we're looking for in your submissions:</p>
+        <p className="mt-5 mb-12 text-lg text-gray-500 text-center">In the quest to find groundbreaking projects that redefine what's possible, our panel of esteemed judges will be focusing on a blend of innovation, technical excellence, impact, and collaborative effort. Here&apos;s what we're looking for in your submissions:</p>
 
         <div className="flex w-full h-full">
             <div className="w-full lg:w-12/12">
