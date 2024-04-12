@@ -33,7 +33,7 @@ const HomeContent = () => {
 					Help Forge the Next.js Excalibur!
 				</h2>
                 <p className="text-lg text-gray-300 my-7">
-					Fellow developers, imagine a world where a Next.js template isn&apos;t just a template. It&apos;s a living, breathing entity, evolving with every contribution, managed from the nerve center of vnoc.com. Sounds like a sci-fi movie? Well, it&apos;s about to become reality, and you're being recruited for the mission!
+					Fellow developers, imagine a world where a Next.js template isn&apos;t just a template. It&apos;s a living, breathing entity, evolving with every contribution, managed from the nerve center of vnoc.com. Sounds like a sci-fi movie? Well, it&apos;s about to become reality, and you&apos;re being recruited for the mission!
 				</p>
             </div>
             <div className="relative flex items-center justify-center w-full md:w-1/2 md:pt-0">
@@ -120,7 +120,7 @@ const HomeContent = () => {
 		The Ultimate Prize Package Awaits You!
 		</h2>
         <p className="w-full max-w-3xl mx-0 mx-auto mt-4 mb-0 text-sm font-medium leading-relaxed text-center text-gray-500 border-0 border-gray-200 lg:text-lg md:text-base">
-            Dare to dream? Step into the limelight and grab your chance to not just win, but truly redefine what's possible in the tech world with our unparalleled prize package. Here's what awaits the visionary minds ready to challenge the status quo:
+            Dare to dream? Step into the limelight and grab your chance to not just win, but truly redefine what&apos;s possible in the tech world with our unparalleled prize package. Here&apos;s what awaits the visionary minds ready to challenge the status quo:
         </p>
         <div className="grid grid-cols-3 gap-5 mt-10 sm:grid-cols-8 lg:grid-cols-12">
 			<div className="max-w-m col-span-4  border-0 border-gray-200 text-gray-50">
@@ -135,7 +135,7 @@ const HomeContent = () => {
                     <div className="mt-6  text-center border-0 border-gray-200 sm:text-left text-gray-50">
                         <span className="box-border text-2xl font-bold leading-none tracking-wider text-center border-solid sm:text-left text-gray-50">Exclusive Partnership Opportunity</span>
                         <p className="box-border mx-0 mt-2 mb-0 font-normal leading-snug text-center text-gray-300 border-solid sm:text-left">
-							Join the Tech Elite: Secure a coveted partnership with DevChallenge, Applications.com, and VNOC.com. This isn't just a reward; it's a golden ticket to innovation's inner circle. As part of our exclusive network, you'll have the unique opportunity to collaborate on cutting-edge projects, gain insider access to industry secrets, and make your mark on the tech landscape.
+							Join the Tech Elite: Secure a coveted partnership with DevChallenge, Applications.com, and VNOC.com. This isn&apos;t just a reward; it&apos;s a golden ticket to innovation&apos;s inner circle. As part of our exclusive network, you&apos;ll have the unique opportunity to collaborate on cutting-edge projects, gain insider access to industry secrets, and make your mark on the tech landscape.
 						</p>
                     </div>
                 </div>
@@ -152,7 +152,7 @@ const HomeContent = () => {
                     <div className="mt-6  text-center border-0 border-gray-200 sm:text-left text-gray-50">
                         <span className="box-border text-2xl font-bold leading-none tracking-wider border-solid text-gray-50">A Generous Stake in Tomorrow</span>
                         <p className="box-border mx-0 mt-2 mb-0 font-normal leading-snug text-center text-gray-300 border-solid sm:text-left">
-						Invest in Your Future: Elevate your portfolio with 50,000 ESH of Applications.com, valued at an astonishing $54,598.92 with each share standing at $1.09. This substantial equity stake is more than a prize; it's a leap towards securing your future in the tech industry, offering you a share of success in a pioneering enterprise.
+						Invest in Your Future: Elevate your portfolio with 50,000 ESH of Applications.com, valued at an astonishing $54,598.92 with each share standing at $1.09. This substantial equity stake is more than a prize; it&apos;s a leap towards securing your future in the tech industry, offering you a share of success in a pioneering enterprise.
 						</p>
                     </div>
                 </div>
@@ -169,7 +169,7 @@ const HomeContent = () => {
                     <div className="mt-6  text-center border-0 border-gray-200 sm:text-left text-gray-50">
                         <span className="box-border text-2xl font-bold leading-none tracking-wider text-center border-solid sm:text-left text-gray-50">First Dibs on Challenge Teams</span>
                         <p className="box-border mx-0 mt-2 mb-0 font-normal leading-snug text-center text-gray-300 border-solid sm:text-left">
-							Lead the Way: Gain an exclusive advantage with first dibs on selecting your challenge team or project. This privilege puts you in the driver's seat, allowing you to align with a team that matches your vision, expertise, and drive, setting the stage for a collaboration that could very well redefine industry norms.
+							Lead the Way: Gain an exclusive advantage with first dibs on selecting your challenge team or project. This privilege puts you in the driver&apos;s seat, allowing you to align with a team that matches your vision, expertise, and drive, setting the stage for a collaboration that could very well redefine industry norms.
 						</p>
                     </div>
                 </div>
@@ -183,7 +183,7 @@ const HomeContent = () => {
         <h2 className="text-center text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gray-200 via-gray-50 to-gray-400">
 			Elevate Your Ideas to Win: Our Judging Criteria Unveiled
 		</h2>
-        <p className="mt-5 mb-12 text-lg text-gray-500 text-center">In the quest to find groundbreaking projects that redefine what's possible, our panel of esteemed judges will be focusing on a blend of innovation, technical excellence, impact, and collaborative effort. Here&apos;s what we're looking for in your submissions:</p>
+        <p className="mt-5 mb-12 text-lg text-gray-500 text-center">In the quest to find groundbreaking projects that redefine what&apos;s possible, our panel of esteemed judges will be focusing on a blend of innovation, technical excellence, impact, and collaborative effort. Here&apos;s what we&apos;re looking for in your submissions:</p>
 
         <div className="flex w-full h-full">
             <div className="w-full lg:w-12/12">
@@ -196,7 +196,7 @@ const HomeContent = () => {
 									<h3 className="my-2 text-lg font-bold text-gray-100">Innovation and Originality (25%)</h3>
                                 </div>
                                 <p className="mt-3 mb-1 text-sm font-medium text-gray-300 uppercase">Pioneering Ideas:</p>
-                                <p className="mb-2 text-gray-600">We're seeking projects that push the boundaries of the conventional, offering new perspectives, solutions, or approaches. Your project should address existing challenges or uncover new opportunities in unique and creative ways.</p>
+                                <p className="mb-2 text-gray-600">We&apos;re seeking projects that push the boundaries of the conventional, offering new perspectives, solutions, or approaches. Your project should address existing challenges or uncover new opportunities in unique and creative ways.</p>
                             </div>
                         </div>
                     </div>
@@ -208,7 +208,7 @@ const HomeContent = () => {
 									<h3 className="my-2 text-lg font-bold text-gray-100">Technical Execution and Excellence (25%)</h3>
                                 </div>
                                 <p className="mt-3 mb-1 text-sm font-medium text-gray-300 uppercase">Robust Development:</p>
-                                <p className="mb-2 text-gray-600">Your project's technical foundation should be solid, showcasing clean, efficient, and scalable code. We'll look at how well you've integrated technologies, the complexity of the problem solved, and the smoothness of the execution.</p>
+                                <p className="mb-2 text-gray-600">Your project&apos;s technical foundation should be solid, showcasing clean, efficient, and scalable code. We&apos;ll look at how well you&apos;ve integrated technologies, the complexity of the problem solved, and the smoothness of the execution.</p>
                             </div>
                         </div>
                     </div>
@@ -222,7 +222,7 @@ const HomeContent = () => {
 									<h3 className="my-2 text-lg font-bold text-gray-100">Design and User Experience (20%)</h3>
                                 </div>
                                 <p className="mt-3 mb-1 text-sm font-medium text-gray-300 uppercase">Intuitive and Engaging</p>
-                                <p className="mb-2 text-gray-600">Aesthetics matter, but so does functionality. Your project should not only look good but also offer an intuitive and seamless user experience. We'll evaluate the effectiveness of your design in communicating ideas and facilitating user interactions.</p>
+                                <p className="mb-2 text-gray-600">Aesthetics matter, but so does functionality. Your project should not only look good but also offer an intuitive and seamless user experience. We&apos;ll evaluate the effectiveness of your design in communicating ideas and facilitating user interactions.</p>
                             </div>
                         </div>
                     </div>
@@ -234,7 +234,7 @@ const HomeContent = () => {
 									<h3 className="my-2 text-lg font-bold text-gray-100">Impact and Application (20%)</h3>
                                 </div>
                                 <p className="mt-3 mb-1 text-sm font-medium text-gray-300 uppercase">Real-World Viability</p>
-                                <p className="mb-2 text-gray-600">The best projects have the potential to make a difference. We're interested in how your project can impact its intended audience or field. This could be through innovation, efficiency, accessibility, or by addressing critical needs.</p>
+                                <p className="mb-2 text-gray-600">The best projects have the potential to make a difference. We&apos;re interested in how your project can impact its intended audience or field. This could be through innovation, efficiency, accessibility, or by addressing critical needs.</p>
                             </div>
                         </div>
                     </div>
@@ -248,7 +248,7 @@ const HomeContent = () => {
 									<h3 className="my-2 text-lg font-bold text-gray-100">Collaboration and Teamwork (10%)</h3>
                                 </div>
                                 <p className="mt-3 mb-1 text-sm font-medium text-gray-300 uppercase">Harmonious Creation</p>
-                                <p className="mb-2 text-gray-600">For team entries, the ability to collaborate effectively is key. We'll consider how your team has leveraged diverse skills, perspectives, and roles to enhance the project. This includes coordination, division of labor, and the integration of different ideas into a cohesive whole.</p>
+                                <p className="mb-2 text-gray-600">For team entries, the ability to collaborate effectively is key. We&apos;ll consider how your team has leveraged diverse skills, perspectives, and roles to enhance the project. This includes coordination, division of labor, and the integration of different ideas into a cohesive whole.</p>
                             </div>
                         </div>
                     </div>
