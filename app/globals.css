@@ -6,21 +6,20 @@
 @tailwind utilities;
 
 body{
+  background: #0F0913 !important;
   font-family: "JetBrains Mono", monospace !important;
   font-optical-sizing: auto;
+	overflow-x: hidden;
 }
 .lh {
   line-height: 1.25;
 }
 
-h1,.h1,
-h2,.h2,
-h3,.h3,
-h4,.h4,
-h5,.h5,
-h6,.h6{
-  font-family: "JetBrains Mono", monospace !important;
-}
+h1, h2, h3, h4, h5, h6, p {
+	font-family: "JetBrains Mono", monospace;
+	font-size: inherit;
+	font-weight: inherit;
+	}
 
 /* Top Header Navbar
 ---------------------------- */
@@ -72,4 +71,30 @@ h6,.h6{
   width: 285px;
   height: 100px;
   object-fit: contain;
+}
+
+.bg-dark-custom {
+  background: #0F0913;
+}
+
+  .marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.marquee-content {
+  display: inline-block;
+  animation: marquee 60s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
+.marquee-content .text-7xl {
+  font-size: 6rem; /* Assuming TailwindCSS scale, adjust as necessary */
+  text-transform: uppercase;
+  font-weight: 800;
 }

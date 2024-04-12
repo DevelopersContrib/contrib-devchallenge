@@ -4,99 +4,76 @@ import Image from "next/image";
 const Header = () => {  
   return (
     <>    
-    <section className="w-full bg-black overflow-hidden">
-        <div className="max-w-7xl mx-auto px-10">
-          <div className="flex flex-col flex-wrap items-center justify-between py-7 mx-auto md:flex-row max-w-7xl">
-            <div className="relative flex flex-col md:flex-row">
-              <Image
-                src="https://vnoclogos.s3-us-west-1.amazonaws.com/logo-devchallenge-1.png"
-                alt="logo"
-                width={350}
-                height={20}
-              />
-              <nav className="flex flex-wrap items-center mb-0 text-lg md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-800">
-                <a
-                  href="#_"
-                  className="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-400"
-                >
-                  Home
+  <section className="w-full">
+    <div className="relative h-auto pb-40 sm:pb-40 md:pb-40">       
+        <div className="px-10 mx-auto max-w-7xl">
+            <div className="relative flex items-center justify-between h-20 mx-auto">
+                <a href="/" className="relative flex items-center text-xl font-bold text-white">
+                  <Image
+                   src="https://vnoclogos.s3-us-west-1.amazonaws.com/logo-devchallenge-1.png" 
+                   alt="logo"
+                   height={20}
+                   width={350}
+                   />
                 </a>
-                <a
-                  href="#_"
-                  className="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-400"
-                >
-                  Community
-                </a>
-                <a
-                  href="#_"
-                  className="mr-5 font-medium leading-6 text-gray-600 hover:text-gray-400"
-                >
-                  Prize
-                </a>
-                <a
-                  href="#_"
-                  className="font-medium leading-6 text-gray-600 md:mr-5 hover:text-gray-400"
-                >
-                  Blog
-                </a>
-                <a
-                  href="#_"
-                  className="font-medium leading-6 text-gray-600 md:mr-5 hover:text-gray-400"
-                >
-                  About
-                </a>
-                <a
-                  href="#_"
-                  className="font-medium leading-6 text-gray-600 md:mr-5 hover:text-gray-400"
-                >
-                  Contact Us
-                </a>
-              </nav>
+                <nav className="text-sm font-bold text-white sm:text-base">
+                    <a href="#_" className="relative inline-block px-0 pb-1 mr-2 group sm:mr-4">
+                        <span>Home</span>
+                        <span className="h-0.5 w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition ease-out duration-200 translate-y-1 group-hover:-translate-y-0 left-0 bg-white"></span>
+                    </a>
+                    <a href="#_" className="relative inline-block px-0 pb-1 mr-2 group sm:mr-4">
+                        <span>Commuity</span>
+                        <span className="h-0.5 w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition ease-out duration-200 translate-y-1 group-hover:-translate-y-0 left-0 bg-white"></span>
+                    </a>
+					 <a href="#_" className="relative inline-block px-0 pb-1 mr-2 group sm:mr-4">
+                        <span>Prize</span>
+                        <span className="h-0.5 w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition ease-out duration-200 translate-y-1 group-hover:-translate-y-0 left-0 bg-white"></span>
+                    </a>
+					 <a href="#_" className="relative inline-block px-0 pb-1 mr-2 group sm:mr-4">
+                        <span>Blog</span>
+                        <span className="h-0.5 w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition ease-out duration-200 translate-y-1 group-hover:-translate-y-0 left-0 bg-white"></span>
+                    </a>
+					 <a href="#_" className="relative inline-block px-0 pb-1 mr-2 group sm:mr-4">
+                        <span>About</span>
+                        <span className="h-0.5 w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition ease-out duration-200 translate-y-1 group-hover:-translate-y-0 left-0 bg-white"></span>
+                    </a>
+					 <a href="#_" className="relative inline-block px-0 pb-1 mr-2 group sm:mr-4">
+                        <span>Contact Us</span>
+                        <span className="h-0.5 w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition ease-out duration-200 translate-y-1 group-hover:-translate-y-0 left-0 bg-white"></span>
+                    </a>
+                    <a href="#" className="text-md bg-blue-700 text-white px-6 py-2 rounded-lg hover:bg-blue-800">Join Now!</a>
+                </nav>
+            </div>           
+            <div className="container relative max-w-4xl mx-auto mt-20 sm:mt-20 lg:mt-20 pt-10">
+                <h1 className="lh text-center text-7xl font-black leading-tight tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-gray-200 via-gray-50 to-gray-500 sm:text-7xl md:text-7xl">
+					Developing Tomorrow’s Collaborative Frameworks Today
+				</h1>                
+                <p className="text-xl text-center mt-6 text-md text-gray-300">
+				Join us at Devchallenge.com as we pioneer the next generation of web development tools. Dive into a community-driven journey, shaping the future of collaborative web frameworks.
+				</p>
             </div>
-            <div className="inline-flex items-center ml-5 text-lg space-x-6 lg:justify-end">
-              <a
-                href="#"
-                className="inline-flex items-center justify-center px-4 py-2 font-medium leading-6 text-gray-200 hover:text-white whitespace-no-wrap bg-gray-800 border border-transparent rounded shadow-sm hover:bg-gray-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400"
-              >
-                Join Now
-              </a>
+            <div className="relative flex justify-center max-w-3xl mx-auto mt-10">
+                <div className="inline-block w-full overflow-hidden font-mono font-medium text-white bg-white rounded-lg shadow-sm bg-opacity-10 text-">
+                    <div className="flex items-center w-full h-12 pl-4 bg-transparent opacity-80">
+                        <div className="flex space-x-1.5">
+                            <div className="w-3 h-3 bg-red-400 rounded-full"></div>
+                            <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                            <div className="w-3 h-3 bg-green-400 rounded-full"></div>
+                        </div>
+                    </div>
+                    <div className="px-5 pt-1 pb-5">
+                        <p>$ your code has the power to redefine how we build the web start today.</p>
+                        <p className="mt-4">Loading Awesomeness...</p>
+                        <p>Ready to Deploy 🚀</p>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div className="flex lg:flex-row flex-col pt-20  md:pt-30 lg:pt-30">
-            <div className="w-full lg:w-1/2 flex lg:px-0 px-0 flex-col md:items-center lg:items-start justify-center">
-              <h1 className="lh text-white text-7xl sm:text-6xl lg:max-w-none max-w-4xl lg:text-left text-left md:text-center xl:text-7xl font-black">
-                Developing Tomorrow’s Collaborative Frameworks Today
-              </h1>
-              <p className="text-gray-500 sm:text-lg md:text-xl xl:text-1xl lg:max-w-none max-w-2xl md:text-center lg:text-left lg:pr-32 mt-6">
-                Join us at Devchallenge.com as we pioneer the next generation of
-                web development tools. Dive into a community-driven journey,
-                shaping the future of collaborative web frameworks.
-              </p>
-              <a
-                href="#_"
-                className="bg-white text-black px-12 lg:px-16 py-4 text-center lg:py-5 font-bold rounded text-lg md:text-xl lg:text-2xl mt-8 inline-block w-auto"
-              >
-                {" "}
-                Join Now!{" "}
-              </a>
-              <p className="text-gray-400 font-normal mt-4">
-                Your code has the power to redefine how we build the web start
-                today.
-              </p>
-            </div>
-            <div className="w-full lg:w-1/2 relative lg:mt-0 mt-0 flex items-center justify-center">
-              <Image
-                src="https://cdn.vnoc.com/images/people_working_6.png"
-                className="w-full ml-4 md:ml-20 lg:ml-0 relative"
-                alt={""}
-                width={500}
-                height={500}
-              />
-            </div>
-          </div>
+			<div className="relative flex justify-center max-w-3xl mx-auto mt-10">
+				<a href="#" className="text-xl bg-blue-700 text-white px-6 py-3 rounded-lg hover:bg-blue-800">Join Now!</a>
+			</div>
         </div>
-      </section>
-  
+    </div>
+</section>
   </>
   )
 }
