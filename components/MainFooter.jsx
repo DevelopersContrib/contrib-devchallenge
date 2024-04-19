@@ -8,26 +8,25 @@ const MainFooter = () => {
     <div className="py-12 mx-auto max-w-7xl">
         <div className="grid grid-cols-2 gap-10 mb-3 md:grid-cols-3 lg:grid-cols-12 lg:gap-20">
             <div className="col-span-3">
-                <a href="#_" className="text-xl font-black leading-none text-white select-none logo">DevChallenge.</a>
+                <a href="/" className="text-xl font-black leading-none text-white select-none logo">DevChallenge.</a>
                 <p className="my-4 text-xs leading-normal text-gray-100">
                     Developing Tomorrow&apos;s Collaborative Frameworks Today
                 </p>
             </div>
             <nav className="col-span-1 md:col-span-1 lg:col-span-2">
                 <p className="mb-3 text-xs font-semibold tracking-wider text-gray-200 uppercase">Company</p>
-                <a href="#" className="flex mb-3 text-sm font-medium text-gray-100 transition md:mb-2 hover:text-white">Home</a>
-                <a href="#" className="flex mb-3 text-sm font-medium text-gray-100 transition md:mb-2 hover:text-white">Join</a>
+                <a href="/" className="flex mb-3 text-sm font-medium text-gray-100 transition md:mb-2 hover:text-white">Home</a>
+                <a href="/join" className="flex mb-3 text-sm font-medium text-gray-100 transition md:mb-2 hover:text-white">Join</a>
             </nav>
             <nav className="col-span-1 md:col-span-1 lg:col-span-2">
                 <p className="mb-3 text-xs font-semibold tracking-wider text-gray-200 uppercase">About</p>
-                <a href="#" className="flex mb-3 text-sm font-medium text-gray-100 transition md:mb-2 hover:text-white">Terms</a>
-                <a href="#" className="flex mb-3 text-sm font-medium text-gray-100 transition md:mb-2 hover:text-white">Privacy Policy</a>
+                <a href="/terms" className="flex mb-3 text-sm font-medium text-gray-100 transition md:mb-2 hover:text-white">Terms</a>
+                <a href="/privacy" className="flex mb-3 text-sm font-medium text-gray-100 transition md:mb-2 hover:text-white">Privacy Policy</a>
             </nav>
             <nav className="col-span-2 md:col-span-1 lg:col-span-2">
                 <p className="mb-3 text-xs font-semibold tracking-wider text-gray-200 uppercase">Contact</p>
-                <a href="#" className="flex mb-3 text-sm font-medium text-gray-100 transition md:mb-2 hover:text-white">Partner With Us</a>
-                <a href="#" className="flex mb-3 text-sm font-medium text-gray-100 transition md:mb-2 hover:text-white">Contact Us</a>
-                <a href="#" className="flex mb-3 text-sm font-medium text-gray-100 transition md:mb-2 hover:text-white">Partner With Us</a>
+                <a href="/contact" className="flex mb-3 text-sm font-medium text-gray-100 transition md:mb-2 hover:text-white">Contact Us</a>
+                <a href="/partner" className="flex mb-3 text-sm font-medium text-gray-100 transition md:mb-2 hover:text-white">Partner With Us</a>
             </nav>
             <div className="col-span-3">
             <span className="inline-flex justify-center w-full mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-end">
@@ -71,8 +70,8 @@ const MainFooter = () => {
         <div className="flex flex-col items-start justify-between pt-10 mt-10 border-t border-gray-500 md:flex-row md:items-center" data-primary="gray-500">
             <p className="mb-6 text-sm text-left text-gray-200 md:mb-0">&copy; Copyright 2024 DevChallenge. All Rights Reserved.</p>
             <div className="flex items-start justify-start space-x-6 md:items-center md:justify-center">
-                <a href="#_" className="text-sm text-gray-200 transition hover:text-white">Terms</a>
-                <a href="#_" className="text-sm text-gray-200 transition hover:text-white">Privacy</a>
+                <a href="/terms" className="text-sm text-gray-200 transition hover:text-white">Terms</a>
+                <a href="/privacy" className="text-sm text-gray-200 transition hover:text-white">Privacy</a>
             </div>
         </div>
     </div>
