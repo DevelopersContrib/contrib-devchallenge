@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 
-const Header = () => {  
+const Header = ({ hideMainDesc }) => {
   return (
     <>    
   <section className="w-full">
@@ -43,34 +43,38 @@ const Header = () => {
                     </a>
                     <a href="/join" target="_blank" className="text-md bg-blue-700 text-white px-6 py-2 rounded-lg hover:bg-blue-800">Join Now!</a>
                 </nav>
-            </div>           
-            <div className="container relative max-w-4xl mx-auto mt-20 sm:mt-20 lg:mt-20 pt-10">
-                <h1 className="lh text-center text-7xl font-black leading-tight tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-gray-200 via-gray-50 to-gray-500 sm:text-7xl md:text-7xl">
-					Developing Tomorrow&apos;s Collaborative Frameworks Today
-				</h1>                
-                <p className="text-xl text-center mt-6 text-md text-gray-300">
-				Join us at Devchallenge.com as we pioneer the next generation of web development tools. Dive into a community-driven journey, shaping the future of collaborative web frameworks.
-				</p>
-            </div>
-            <div className="relative flex justify-center max-w-3xl mx-auto mt-10">
-                <div className="inline-block w-full overflow-hidden font-mono font-medium text-white bg-white rounded-lg shadow-sm bg-opacity-10 text-">
-                    <div className="flex items-center w-full h-12 pl-4 bg-transparent opacity-80">
-                        <div className="flex space-x-1.5">
-                            <div className="w-3 h-3 bg-red-400 rounded-full"></div>
-                            <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
-                            <div className="w-3 h-3 bg-green-400 rounded-full"></div>
+            </div>  
+            {!hideMainDesc && (    
+            <div className="mainDesc">     
+                <div className="container relative max-w-4xl mx-auto mt-20 sm:mt-20 lg:mt-20 pt-10">
+                    <h1 className="lh text-center text-7xl font-black leading-tight tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-gray-200 via-gray-50 to-gray-500 sm:text-7xl md:text-7xl">
+                        Developing Tomorrow&apos;s Collaborative Frameworks Today
+                    </h1>                
+                    <p className="text-xl text-center mt-6 text-md text-gray-300">
+                    Join us at Devchallenge.com as we pioneer the next generation of web development tools. Dive into a community-driven journey, shaping the future of collaborative web frameworks.
+                    </p>
+                </div>
+                <div className="relative flex justify-center max-w-3xl mx-auto mt-10">
+                    <div className="inline-block w-full overflow-hidden font-mono font-medium text-white bg-white rounded-lg shadow-sm bg-opacity-10 text-">
+                        <div className="flex items-center w-full h-12 pl-4 bg-transparent opacity-80">
+                            <div className="flex space-x-1.5">
+                                <div className="w-3 h-3 bg-red-400 rounded-full"></div>
+                                <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                                <div className="w-3 h-3 bg-green-400 rounded-full"></div>
+                            </div>
+                        </div>
+                        <div className="px-5 pt-1 pb-5">
+                            <p>$ your code has the power to redefine how we build the web start today.</p>
+                            <p className="mt-4">Loading Awesomeness...</p>
+                            <p>Ready to Deploy 🚀</p>
                         </div>
                     </div>
-                    <div className="px-5 pt-1 pb-5">
-                        <p>$ your code has the power to redefine how we build the web start today.</p>
-                        <p className="mt-4">Loading Awesomeness...</p>
-                        <p>Ready to Deploy 🚀</p>
-                    </div>
+                </div>
+                <div className="relative flex justify-center max-w-3xl mx-auto mt-10">
+                    <a href="/join" target="_blank" className="text-xl bg-blue-700 text-white px-6 py-3 rounded-lg hover:bg-blue-800">Join Now!</a>
                 </div>
             </div>
-			<div className="relative flex justify-center max-w-3xl mx-auto mt-10">
-				<a href="/join" target="_blank" className="text-xl bg-blue-700 text-white px-6 py-3 rounded-lg hover:bg-blue-800">Join Now!</a>
-			</div>
+            )}
         </div>
     </div>
 </section>

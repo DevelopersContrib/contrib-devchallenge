@@ -1,11 +1,13 @@
 import Script from "next/script"
 import { getDomain} from '../../lib/data';
 import Image from "next/image";
+import Header from "@/components/Header";
 const page = () => {
   const domain = getDomain();
   return (
     <>
-      <section className="h-auto py-12 md:py-20">
+      <Header hideMainDesc={true} />
+      <section className="h-auto mb-20">
         <div className="md:text-center max-w-7xl mx-auto xl:px-0 px-5">
             <p className="font-medium text-white mb-4 sm:text-lg uppercase tracking-wide">Continuous learning, skill enhancement, and camaraderie!</p>
             <h1 className="text-4xl font-extrabold tracking-normal text-white sm:text-5xl lg:text-7xl md:leading-none">About DevChallenge</h1>
