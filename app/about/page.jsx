@@ -10,7 +10,7 @@ const page = () => {
             <p className="font-medium text-white mb-4 sm:text-lg uppercase tracking-wide">Continuous learning, skill enhancement, and camaraderie!</p>
             <h1 className="text-4xl font-extrabold tracking-normal text-white sm:text-5xl lg:text-7xl md:leading-none">About DevChallenge</h1>
             <p className="max-w-none mx-auto mt-3 text-xl font-normal text-gray-400 sm:mt-5 sm:text-xl md:mt-5 lg:text-2xl md:max-w-4xl">
-            Welcome to DevChallenge.com, where coding meets competition and creativity. Our platform is designed to bring together developers from around the globe to challenge themselves, learn new skills, and connect with a vibrant community. Whether you're looking to sharpen your coding skills, showcase your expertise, or just have some fun, DevChallenge is the place for you.
+            Welcome to DevChallenge.com, where coding meets competition and creativity. Our platform is designed to bring together developers from around the globe to challenge themselves, learn new skills, and connect with a vibrant community. Whether you&apos;re looking to sharpen your coding skills, showcase your expertise, or just have some fun, DevChallenge is the place for you.
             </p>
         </div>
       </section>
