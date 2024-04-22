@@ -40,7 +40,7 @@ export default async function Home() {
 
   return (
     <>
-      <Header />
+      <Header hideMainDesc={undefined} />
       <HomeContent />
       <MainFooter />
     </>
