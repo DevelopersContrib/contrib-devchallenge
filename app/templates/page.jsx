@@ -18,11 +18,11 @@ const page = () => {
       <section className="bg-custom-1 mt-10 mb-40">
         <div className="max-w-7xl py-0 pb-20 flex space-x-5 w-full h-full items-center1 justify-center mx-auto">
             <div className="h-full w-1/4 bg-gray-0 rounded-md">
-                <div className="bg-white border shadow mt-2">
+                <div className="bg-white border shadow mt-2 rounded-md">
                 <form className="w-full max-w-sm">
-                  <div className="flex items-center border-b border-teal-500 py-2">
+                  <div className="flex items-center border-b border-teal-500 py-2 mx-2">
                     <input className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Search Template"/>
-                    <button className="flex-shrink-0 text-md bg-blue-700 text-white px-6 py-2 rounded-lg hover:bg-blue-800 text-white py-1 px-2 rounded" type="button">
+                    <button className="flex-shrink-0 text-md bg-blue-700 text-white px-6 py-2 rounded-md hover:bg-blue-800 text-white py-1 px-2 rounded" type="button">
                       Search
                     </button>
                   </div>
@@ -32,7 +32,7 @@ const page = () => {
             <div className="h-full w-3/4 rounded-md">
                 <div className="mx-auto max-w-7xl"> 
                     <div className="w-full flex mx-auto mt-0">
-                      <div className="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div className="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_ai.jpg" 
@@ -48,7 +48,7 @@ const page = () => {
                             </div>
                           </a>                        
                       </div>   
-                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_blockchain.jpg" 
@@ -64,7 +64,7 @@ const page = () => {
                             </div>
                           </a>                        
                       </div>  
-                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_buysell.jpg" 
@@ -82,7 +82,7 @@ const page = () => {
                       </div>     
                     </div>
                     <div className="w-full flex mx-auto mt-0">
-                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_buysellv2.jpg" 
@@ -98,7 +98,7 @@ const page = () => {
                             </div>
                           </a>                        
                       </div>  
-                      <div className="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div className="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_challenge.jpg" 
@@ -114,7 +114,7 @@ const page = () => {
                             </div>
                           </a>                        
                       </div>   
-                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_developer.jpg" 
@@ -132,7 +132,7 @@ const page = () => {
                       </div>                            
                     </div>
                     <div className="w-full flex mx-auto mt-0">
-                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_eservice.jpg" 
@@ -148,7 +148,7 @@ const page = () => {
                             </div>
                           </a>                        
                       </div>  
-                      <div className="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div className="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_forsale.jpg" 
@@ -164,7 +164,7 @@ const page = () => {
                             </div>
                           </a>                        
                       </div>   
-                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_forum.jpg" 
@@ -182,7 +182,7 @@ const page = () => {
                       </div>                            
                     </div>
                     <div className="w-full flex mx-auto mt-0">
-                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_handyman.jpg" 
@@ -198,7 +198,7 @@ const page = () => {
                             </div>
                           </a>                        
                       </div>  
-                      <div className="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div className="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_icontent.jpg" 
@@ -214,7 +214,7 @@ const page = () => {
                             </div>
                           </a>                        
                       </div>   
-                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_leadv1.jpg" 
@@ -232,7 +232,7 @@ const page = () => {
                       </div>                            
                     </div>
                     <div className="w-full flex mx-auto mt-0">
-                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_leadv2.jpg" 
@@ -248,7 +248,7 @@ const page = () => {
                             </div>
                           </a>                        
                       </div>  
-                      <div className="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div className="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_redirect.jpg" 
@@ -264,7 +264,7 @@ const page = () => {
                             </div>
                           </a>                        
                       </div>   
-                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_social.jpg" 
@@ -282,7 +282,7 @@ const page = () => {
                       </div>                            
                     </div>
                     <div className="w-full flex mx-auto mt-0">
-                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_staffing.jpg" 
@@ -298,7 +298,7 @@ const page = () => {
                             </div>
                           </a>                        
                       </div>  
-                      <div className="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div className="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="https://cdn.vnoc.com/templates/devchallenge/template_survey.jpg" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_survey.jpg" 
@@ -314,7 +314,7 @@ const page = () => {
                             </div>
                           </a>                        
                       </div>   
-                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_topvertical.jpg" 
@@ -332,7 +332,7 @@ const page = () => {
                       </div>                            
                     </div>
                     <div className="w-full flex mx-auto mt-0">
-                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_verticalchain1.jpg" 
@@ -348,7 +348,7 @@ const page = () => {
                             </div>
                           </a>                        
                       </div>  
-                      <div className="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div className="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="https://cdn.vnoc.com/templates/devchallenge/template_survey.jpg" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_verticalholding.jpg" 
@@ -364,7 +364,7 @@ const page = () => {
                             </div>
                           </a>                        
                       </div>   
-                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-lg m-2">
+                      <div class="w-1/3 itemLink relative bg-white p-1 rounded-md m-2">
                           <a href="" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_buylease.jpg" 
