@@ -32,27 +32,27 @@ const Page = () => {
           </div>
           <div className="h-full w-3/4 rounded-md">
             <div className="mx-auto max-w-7xl"> 
-            <div className="flex flex-wrap mx-auto mt-0">
-            {templates.map(template => (
-                <div key={template.id} className="p-2 w-full md:w-1/3">
-                  <div className="bg-white border shadow rounded-md flex flex-col h-full">
-                    <a href={template.link} target="_blank" className="flex flex-col flex-grow">
-                      <Image
-                        src={template.imageUrl}
-                        alt={template.name}
-                        width={500}
-                        height={500}
-                        layout="responsive"
-                        className="rounded-t-md"
-                      />
-                      <div className="p-4 flex-grow">
-                        <p className="text-xl text-gray-900">{template.name}</p>
-                        <p className="text-sm text-gray-500">{template.description}</p>
-                      </div>
-                    </a>
+              <div className="flex flex-wrap mx-auto mt-0">
+                {templates.map(template => (
+                  <div key={template.id} className="p-2 w-full md:w-1/3">
+                    <div className="bg-white border shadow rounded-md flex flex-col h-full">
+                      <a href={template.link} target="_blank" className="flex flex-col flex-grow">
+                        <Image
+                          src={template.imageUrl}
+                          alt={template.name}
+                          width={500}
+                          height={500}
+                          layout="responsive"
+                          className="rounded-t-md"
+                        />
+                        <div className="p-4 flex-grow">
+                          <p className="text-xl text-gray-900">{template.name}</p>
+                          <p className="text-sm text-gray-500">{template.description}</p>
+                        </div>
+                      </a>
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
               </div>
             </div>
           </div>          
