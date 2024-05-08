@@ -33,7 +33,7 @@ const page = () => {
                 <div className="mx-auto max-w-7xl"> 
                     <div className="w-full flex mx-auto mt-0">
                       <div className="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="http://attackers.co/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="http://attackers.co/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_ai.jpg" 
                               alt={""}
@@ -43,13 +43,13 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                               <p class="text-xl text-gray-900"> AI Framework </p>  
                             </div>
                           </a>                        
                       </div>   
                       <div class="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="https://www.sourcingchain.com/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="https://www.sourcingchain.com/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_blockchain.jpg" 
                               alt={""}
@@ -59,13 +59,13 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                             <p class="text-xl text-gray-900"> Blockchain Framework </p>  
                             </div>
                           </a>                        
                       </div>  
                       <div class="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="https://www.skycasts.com/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="https://www.skycasts.com/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_buysell.jpg" 
                               alt={""}
@@ -75,7 +75,7 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                             <p class="text-xl text-gray-900"> Buy & Sell Framework </p>  
                             </div>
                           </a>                        
@@ -83,7 +83,7 @@ const page = () => {
                     </div>
                     <div className="w-full flex mx-auto mt-0">
                       <div class="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="https://www.parentchallenge.com/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="https://www.parentchallenge.com/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_buysellv2.jpg" 
                               alt={""}
@@ -93,13 +93,13 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                             <p class="text-xl text-gray-900"> Buy & Sell v2 Framework </p>  
                             </div>
                           </a>                        
                       </div>  
                       <div className="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="https://www.moonchallenge.com/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="https://www.moonchallenge.com/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_challenge.jpg" 
                               alt={""}
@@ -109,13 +109,13 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                               <p class="text-xl text-gray-900"> Challenge Framework </p>  
                             </div>
                           </a>                        
                       </div>   
                       <div class="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="http://exnetwork.com/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="http://exnetwork.com/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_developer.jpg" 
                               alt={""}
@@ -125,7 +125,7 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                             <p class="text-xl text-gray-900"> Developer Framework </p>  
                             </div>
                           </a>                        
@@ -133,7 +133,7 @@ const page = () => {
                     </div>
                     <div className="w-full flex mx-auto mt-0">
                       <div class="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="https://religiondirectory.com/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="https://religiondirectory.com/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_eservice.jpg" 
                               alt={""}
@@ -143,13 +143,13 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                             <p class="text-xl text-gray-900"> Eservice Framework </p>  
                             </div>
                           </a>                        
                       </div>  
                       <div className="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="https://www.handysurvey.com/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="https://www.handysurvey.com/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_forsale.jpg" 
                               alt={""}
@@ -159,13 +159,13 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                               <p class="text-xl text-gray-900"> For Sale Framework </p>  
                             </div>
                           </a>                        
                       </div>   
                       <div class="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="https://virginiasurvey.com/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="https://virginiasurvey.com/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_forum.jpg" 
                               alt={""}
@@ -175,7 +175,7 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                             <p class="text-xl text-gray-900"> Forum Framework </p>  
                             </div>
                           </a>                        
@@ -183,7 +183,7 @@ const page = () => {
                     </div>
                     <div className="w-full flex mx-auto mt-0">
                       <div class="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="https://homepropertymanager.com/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="https://homepropertymanager.com/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_handyman.jpg" 
                               alt={""}
@@ -193,13 +193,13 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                             <p class="text-xl text-gray-900"> Handyman Framework </p>  
                             </div>
                           </a>                        
                       </div>  
                       <div className="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="https://eserves.com/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="https://eserves.com/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_icontent.jpg" 
                               alt={""}
@@ -209,13 +209,13 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                               <p class="text-xl text-gray-900"> Icontent Framework </p>  
                             </div>
                           </a>                        
                       </div>   
                       <div class="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="https://www.querypost.com/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="https://www.querypost.com/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_leadv1.jpg" 
                               alt={""}
@@ -225,7 +225,7 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                             <p class="text-xl text-gray-900"> Lead V.1 Framework </p>  
                             </div>
                           </a>                        
@@ -233,7 +233,7 @@ const page = () => {
                     </div>
                     <div className="w-full flex mx-auto mt-0">
                       <div class="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="https://www.equityprompts.com/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="https://www.equityprompts.com/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_leadv2.jpg" 
                               alt={""}
@@ -243,13 +243,13 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                             <p class="text-xl text-gray-900"> Lead V.2 Framework </p>  
                             </div>
                           </a>                        
                       </div>  
                       <div className="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="https://www.contrib.com/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="https://www.contrib.com/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_redirect.jpg" 
                               alt={""}
@@ -259,13 +259,13 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                               <p class="text-xl text-gray-900"> Contrib Redirect </p>  
                             </div>
                           </a>                        
                       </div>   
                       <div class="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="https://medicalbooker.com/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="https://medicalbooker.com/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_social.jpg" 
                               alt={""}
@@ -275,7 +275,7 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                             <p class="text-xl text-gray-900">  Social Framework </p>  
                             </div>
                           </a>                        
@@ -283,7 +283,7 @@ const page = () => {
                     </div>
                     <div className="w-full flex mx-auto mt-0">
                       <div class="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="https://icommerce.net/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="https://icommerce.net/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_staffing.jpg" 
                               alt={""}
@@ -293,13 +293,13 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                             <p class="text-xl text-gray-900"> Staffing Framework </p>  
                             </div>
                           </a>                        
                       </div>  
                       <div className="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="https://surveyscripts.com/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="https://surveyscripts.com/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_survey.jpg" 
                               alt={""}
@@ -309,13 +309,13 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                               <p class="text-xl text-gray-900">  Survey Framework </p>  
                             </div>
                           </a>                        
                       </div>   
                       <div class="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="https://taxstream.com/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="https://taxstream.com/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_topvertical.jpg" 
                               alt={""}
@@ -325,7 +325,7 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                             <p class="text-xl text-gray-900">  Top Vertical Framework </p>  
                             </div>
                           </a>                        
@@ -333,7 +333,7 @@ const page = () => {
                     </div>
                     <div className="w-full flex mx-auto mt-0">
                       <div class="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="https://livechains.com/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="https://livechains.com/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_verticalchain1.jpg" 
                               alt={""}
@@ -343,13 +343,13 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                             <p class="text-xl text-gray-900">Vertical Chain </p>  
                             </div>
                           </a>                        
                       </div>  
                       <div className="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="http://spachat.com/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="http://spachat.com/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_verticalholding.jpg" 
                               alt={""}
@@ -359,13 +359,13 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                               <p class="text-xl text-gray-900"> Vertical Holding </p>  
                             </div>
                           </a>                        
                       </div>   
                       <div class="w-1/3 itemLink relative bg-white rounded-md m-2">
-                          <a href="https://furniturecentre.com/" target="_blank" class="relative z-10 items-center h-full1 m-2 bg-white shadow position-relative d-block">    
+                          <a href="https://furniturecentre.com/" target="_blank" class="relative z-10 items-center h-full1 m-1 bg-white shadow position-relative d-block">    
                             <div className="templateImage">
                               <Image src="https://cdn.vnoc.com/templates/devchallenge/template_buylease.jpg" 
                               alt={""}
@@ -375,7 +375,7 @@ const page = () => {
                               className="object-cover w-full h-full" 
                               />
                             </div>               
-                            <div class="flex-1 min-w-0 p-2">
+                            <div class="flex-1 min-w-0 p-1">
                             <p class="text-xl text-gray-900">Buy/Lease Framework </p>  
                             </div>
                           </a>                        
