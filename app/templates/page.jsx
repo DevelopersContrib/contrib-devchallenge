@@ -18,7 +18,7 @@ const Page = () => {
       </section>
       <section className="bg-custom-1 mt-10 mb-40">
         <div className="max-w-7xl py-0 pb-20 flex flex-wrap justify-center mx-auto">
-          <div className="h-full w-1/4 bg-gray-0 rounded-md">
+          <div className="h-full w-1/4 bg-gray-0 rounded-md pt-0 p-2">
             <div className="bg-white border shadow mt-2 rounded-md">
               <form className="w-full max-w-sm">
                 <div className="flex items-center border-b border-teal-500 py-2 mx-2">
