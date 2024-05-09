@@ -1,0 +1,150 @@
+[
+    {
+      "id": "1",
+      "name": "AI Framework",
+      "description": "A comprehensive AI development framework.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_ai.jpg",
+      "link": "http://attackers.co/"
+    },
+    {
+      "id": "2",
+      "name": "Blockchain Framework",
+      "description": "Blockchain development made easy.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_blockchain.jpg",
+      "link": "https://www.sourcingchain.com/"
+    },
+    {
+      "id": "3",
+      "name": "Buy & Sell Framework",
+      "description": "Framework for creating buy and sell platforms.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_buysell.jpg",
+      "link": "https://www.skycasts.com/"
+    },  
+    {
+      "id": "4",
+      "name": "Buy & Sell V.2 Framework",
+      "description": "Enhanced version for more efficient trading platforms.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_buysellv2.jpg",
+      "link": "https://www.parentchallenge.com/"
+    },
+    {
+      "id": "5",
+      "name": "Challenge Framework",
+      "description": "Tools for creating and managing challenges in any domain.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_challenge.jpg",
+      "link": "https://www.moonchallenge.com/"
+    },
+    {
+      "id": "6",
+      "name": "Developer Framework",
+      "description": "A developer-friendly framework packed with essential tools.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_developer.jpg",
+      "link": "http://exnetwork.com/"
+    },
+    {
+      "id": "7",
+      "name": "Eservice Framework",
+      "description": "Comprehensive tools for electronic service management.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_eservice.jpg",
+      "link": "https://religiondirectory.com/"
+    },
+    {
+      "id": "8",
+      "name": "For Sale Framework",
+      "description": "Specialized framework for creating for-sale listing platforms.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_forsale.jpg",
+      "link": "https://www.handysurvey.com/"
+    },
+    {
+      "id": "9",
+      "name": "Forum Framework",
+      "description": "Robust and scalable solutions for creating online forums.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_forum.jpg",
+      "link": "https://virginiasurvey.com/"
+    },
+    {
+      "id": "10",
+      "name": "Handyman Framework",
+      "description": "Streamline operations for handyman and maintenance services.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_handyman.jpg",
+      "link": "https://homepropertymanager.com/"
+    },
+    {
+      "id": "11",
+      "name": "Icontent Framework",
+      "description": "Intelligent content management and distribution tools.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_icontent.jpg",
+      "link": "https://eserves.com/"
+    },
+    {
+      "id": "12",
+      "name": "Lead V.1 Framework",
+      "description": "Lead generation tools designed to kickstart your sales pipeline.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_leadv1.jpg",
+      "link": "https://www.querypost.com/"
+    },
+    {
+      "id": "13",
+      "name": "Lead V.2 Framework",
+      "description": "Advanced tools for lead generation with enhanced analytics.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_leadv2.jpg",
+      "link": "https://www.equityprompts.com/"
+    },
+    {
+      "id": "14",
+      "name": "Contrib Redirect",
+      "description": "Seamless redirection services for maintaining large online portals.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_redirect.jpg",
+      "link": "https://www.contrib.com/"
+    },
+    {
+      "id": "15",
+      "name": "Social Framework",
+      "description": "Engaging social networking framework for connecting people.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_social.jpg",
+      "link": "https://medicalbooker.com/"
+    },
+    {
+      "id": "16",
+      "name": "Staffing Framework",
+      "description": "Efficient solutions for staffing and recruitment agencies.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_staffing.jpg",
+      "link": "https://icommerce.net/"
+    },
+    {
+      "id": "17",
+      "name": "Survey Framework",
+      "description": "Comprehensive survey tools for data collection and analysis.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_survey.jpg",
+      "link": "https://surveyscripts.com/"
+    },
+    {
+      "id": "18",
+      "name": "Top Vertical Framework",
+      "description": "Top-tier framework for vertical market solutions.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_topvertical.jpg",
+      "link": "https://taxstream.com/"
+    },
+    {
+      "id": "19",
+      "name": "Vertical Chain",
+      "description": "Optimized supply chain solutions for vertical integration.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_verticalchain1.jpg",
+      "link": "https://livechains.com/"
+    },
+    {
+      "id": "20",
+      "name": "Vertical Holding",
+      "description": "Strategic holding framework for vertical market expansions.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_verticalholding.jpg",
+      "link": "https://spachat.com/"
+    },
+    {
+      "id": "21",
+      "name": "Buy/Lease Framework",
+      "description": "Flexible buy or lease options tailored for domains.",
+      "imageUrl": "https://cdn.vnoc.com/templates/devchallenge/template_buylease.jpg",
+      "link": "https://furniturecentre.com/"
+    }
+  ]
+  
