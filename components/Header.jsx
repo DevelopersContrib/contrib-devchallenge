@@ -25,10 +25,6 @@ const Header = ({ hideMainDesc }) => {
                         <span>Community</span>
                         <span className="h-0.5 w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition ease-out duration-200 translate-y-1 group-hover:-translate-y-0 left-0 bg-white"></span>
                     </a>
-					 <a href="#_" className="relative inline-block px-0 pb-1 mr-2 group sm:mr-4">
-                        <span>Prize</span>
-                        <span className="h-0.5 w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition ease-out duration-200 translate-y-1 group-hover:-translate-y-0 left-0 bg-white"></span>
-                    </a>
 					 <a href="https://blog.devchallenge.com" target="_blank" className="relative inline-block px-0 pb-1 mr-2 group sm:mr-4">
                         <span>Blog</span>
                         <span className="h-0.5 w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition ease-out duration-200 translate-y-1 group-hover:-translate-y-0 left-0 bg-white"></span>
